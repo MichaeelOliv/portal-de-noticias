@@ -54,3 +54,22 @@ h1, h2, h3 {
 grid-auto-flow: column;
 
 }
+
+.grid-col-2 {
+    grid-template-columns: 1fr 1fr;
+}
+img {
+    max-width: 100%;
+}
+.gap-16{
+    gap: 16px;
+}
+main {
+    margin-top: 40px;
+}
+
+#featured {
+    height: 100%;
+    object-fit: cover;
+    border-radius: 4px;
+}
