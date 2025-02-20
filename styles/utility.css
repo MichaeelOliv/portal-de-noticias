@@ -1,0 +1,59 @@
+/*utility-first: classe utilitária*/
+
+.grid {
+    display: grid;
+}
+
+.grid-flow-col {
+    grid-auto-flow: column;
+    
+}
+
+.grid-cols-2 {
+    grid-template-columns: 0.5fr 0.5fr;
+}
+
+.gap-16 {
+    gap: 16px;
+}
+
+.gap-32 {
+    gap: 32px;
+}
+
+/*texto duas vezes grande*/
+.text-2xl {
+    font: var(--title-lg);
+}
+
+.text-xl {
+    font: var(--title-md);
+}
+
+.text-lg {
+    font: var(--title-sm);
+}
+
+.text-sm {
+    font: var(--text-sm);
+}
+
+.mobile-flex {
+    display: flex;
+}
+
+@media (max-width: 767px) {
+    .grid-mobile {
+        display: grid;
+        grid-auto-flow: row;
+        grid-template-rows: 1fr;
+    }
+
+    .grid-cols-2 {
+        grid-template-columns: none;
+    }
+
+    
+
+    
+}
